@@ -1,0 +1,84 @@
+{
+  "address": "0x851df235da8d67dbf2c4d405a7b2f4b69a2ab191",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_aurox",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_player",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_tile",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_tileRegistry",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "aurox",
+      "outputs": [
+        {
+          "internalType": "contract AUROx",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "player",
+      "outputs": [
+        {
+          "internalType": "contract Player",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "tile",
+      "outputs": [
+        {
+          "internalType": "contract Tile",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "tileRegistry",
+      "outputs": [
+        {
+          "internalType": "contract TileRegistry",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "numDeployments": 93
+}
